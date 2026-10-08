@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Spring — вейп-шоп в Барнауле</title>
+    <title>SPRING — Вейп-шоп в Барнауле</title>
 
     <meta
         name="description"
-        content="Spring — магазин вейп-продукции и аксессуаров в Барнауле. Адрес, контакты и информация о магазине."
+        content="SPRING — информация о магазине в Барнауле, продукции и аксессуарах."
     >
 
     <link rel="stylesheet" href="style.css">
@@ -16,450 +16,346 @@
 
 <body>
 
-<header class="header">
-    <div class="container header-inner">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-inner">
 
-        <a href="#" class="logo">
-            <span class="logo-icon">S</span>
-            <span>SPRING</span>
-        </a>
+            <a href="#" class="logo">
+                SPRING
+            </a>
 
-        <nav class="nav" id="nav">
-            <a href="#about">О магазине</a>
-            <a href="#services">Услуги</a>
-            <a href="#gallery">Фото</a>
-            <a href="#contacts">Контакты</a>
-        </nav>
+            <nav class="nav">
+                <a href="#about">О магазине</a>
+                <a href="#services">Услуги</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
 
-        <button class="menu-button" id="menuButton" aria-label="Открыть меню">
-            ☰
-        </button>
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
 
-    </div>
-</header>
+        </div>
+    </header>
 
-
-<main>
 
     <!-- HERO -->
+    <main>
 
-    <section class="hero">
+        <section class="hero">
 
-        <div class="container hero-content">
+            <div class="container hero-grid">
 
-            <div class="hero-text">
+                <!-- LEFT -->
+                <div class="hero-content">
 
-                <div class="badge">
-                    БАРНАУЛ
-                </div>
+                    <div class="location-badge">
+                        БАРНАУЛ
+                    </div>
 
-                <h1>
-                    SPRING
-                </h1>
+                    <h1>
+                        SPRING
+                    </h1>
 
-                <h2>
-                    Вейп-шоп в Барнауле
-                </h2>
+                    <h2>
+                        Вейп-шоп в Барнауле
+                    </h2>
 
-                <p>
-                    Место, где можно узнать больше о продукции,
-                    аксессуарах и получить консультацию.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#contacts" class="button button-primary">
-                        Как нас найти
-                    </a>
-
-                    <a href="#about" class="button button-secondary">
-                        О магазине
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="hero-card">
-
-                <div class="hero-card-icon">
-                    S
-                </div>
-
-                <h3>SPRING</h3>
-
-                <p>
-                    Барнаул
-                </p>
-
-                <div class="status">
-                    <span class="status-dot"></span>
-                    Информация о магазине
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ABOUT -->
-
-    <section class="section" id="about">
-
-        <div class="container">
-
-            <div class="section-heading">
-                <span>SPRING</span>
-                <h2>О магазине</h2>
-            </div>
-
-            <div class="about-grid">
-
-                <div class="about-text">
-
-                    <h3>
-                        Добро пожаловать в Spring
-                    </h3>
-
-                    <p>
-                        Spring — специализированный магазин в Барнауле,
-                        посвящённый вейп-продукции, аксессуарам и сопутствующим
-                        товарам.
+                    <p class="hero-description">
+                        Место, где можно узнать больше о продукции,
+                        аксессуарах и получить консультацию.
                     </p>
 
-                    <p>
-                        На сайте можно узнать информацию о магазине,
-                        посмотреть фотографии и найти наши контакты.
-                    </p>
+                    <div class="hero-buttons">
 
-                    <p class="age-warning">
-                        🔞 Продажа продукции с возрастными ограничениями
-                        осуществляется только в соответствии с законодательством
-                        Российской Федерации.
-                    </p>
+                        <a href="#contacts" class="btn btn-primary">
+                            Как нас найти
+                        </a>
 
-                </div>
+                        <a href="#about" class="btn btn-secondary">
+                            О магазине
+                        </a>
 
-                <div class="about-features">
-
-                    <div class="feature">
-                        <div class="feature-icon">📍</div>
-                        <div>
-                            <h4>Барнаул</h4>
-                            <p>Магазин в городе Барнаул</p>
-                        </div>
-                    </div>
-
-                    <div class="feature">
-                        <div class="feature-icon">💳</div>
-                        <div>
-                            <h4>Оплата картой</h4>
-                            <p>Доступна оплата банковской картой</p>
-                        </div>
-                    </div>
-
-                    <div class="feature">
-                        <div class="feature-icon">🐾</div>
-                        <div>
-                            <h4>Можно с питомцами</h4>
-                            <p>Посещение с кошками и собаками</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- SERVICES -->
-
-    <section class="section section-dark" id="services">
-
-        <div class="container">
-
-            <div class="section-heading light">
-                <span>ВОЗМОЖНОСТИ</span>
-                <h2>Что есть в Spring</h2>
-            </div>
-
-            <div class="cards">
-
-                <article class="card">
-
-                    <div class="card-icon">
-                        💨
-                    </div>
-
-                    <h3>Вейп-продукция</h3>
-
-                    <p>
-                        Информация о представленных в магазине
-                        товарах и продукции.
-                    </p>
-
-                </article>
-
-
-                <article class="card">
-
-                    <div class="card-icon">
-                        🔧
-                    </div>
-
-                    <h3>Аксессуары</h3>
-
-                    <p>
-                        Аксессуары и сопутствующие товары
-                        для устройств.
-                    </p>
-
-                </article>
-
-
-                <article class="card">
-
-                    <div class="card-icon">
-                        💬
-                    </div>
-
-                    <h3>Консультация</h3>
-
-                    <p>
-                        Можно обратиться к сотруднику магазина
-                        за информацией о продукции.
-                    </p>
-
-                </article>
-
-
-                <article class="card">
-
-                    <div class="card-icon">
-                        🚚
-                    </div>
-
-                    <h3>Доставка</h3>
-
-                    <p>
-                        Информация о возможности доставки
-                        уточняется у магазина.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- GALLERY -->
-
-    <section class="section" id="gallery">
-
-        <div class="container">
-
-            <div class="section-heading">
-                <span>ГАЛЕРЕЯ</span>
-                <h2>Наш магазин</h2>
-            </div>
-
-            <div class="gallery">
-
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <span>SPRING</span>
-                        <small>Фото магазина</small>
-                    </div>
-                </div>
-
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <span>SPRING</span>
-                        <small>Интерьер</small>
-                    </div>
-                </div>
-
-                <div class="gallery-item">
-                    <div class="gallery-placeholder">
-                        <span>SPRING</span>
-                        <small>Ассортимент</small>
-                    </div>
-                </div>
-
-            </div>
-
-            <p class="gallery-note">
-                Фотографии магазина можно добавить в папку
-                <strong>images</strong> и подключить к этому разделу.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- CONTACTS -->
-
-    <section class="section contacts-section" id="contacts">
-
-        <div class="container">
-
-            <div class="section-heading">
-                <span>КОНТАКТЫ</span>
-                <h2>Как нас найти</h2>
-            </div>
-
-            <div class="contacts-grid">
-
-                <div class="contact-card">
-
-                    <div class="contact-icon">📍</div>
-
-                    <div>
-                        <h3>Адрес</h3>
-                        <p>
-                            г. Барнаул<br>
-                            <span class="placeholder">
-                                Укажите точный адрес
-                            </span>
-                        </p>
                     </div>
 
                 </div>
 
 
-                <div class="contact-card">
+                <!-- RIGHT IMAGE -->
+                <div class="hero-card">
 
-                    <div class="contact-icon">📞</div>
-
-                    <div>
-                        <h3>Телефон</h3>
-
-                        <p>
-                            <a href="tel:+70000000000">
-                                +7 (000) 000-00-00
-                            </a>
-                        </p>
-
-                        <small>
-                            Замените номер на реальный
-                        </small>
-                    </div>
-
-                </div>
-
-
-                <div class="contact-card">
-
-                    <div class="contact-icon">🕐</div>
-
-                    <div>
-                        <h3>Режим работы</h3>
-
-                        <p>
-                            Пн–Вс<br>
-                            <span class="placeholder">
-                                Укажите часы работы
-                            </span>
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="map-block">
-
-                <div class="map-content">
-
-                    <div class="map-icon">
-                        📍
-                    </div>
-
-                    <h3>
-                        Spring на карте
-                    </h3>
-
-                    <p>
-                        Здесь позже можно разместить
-                        Яндекс Карты.
-                    </p>
-
-                    <a
-                        href="https://yandex.ru/maps/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="button button-primary"
+                    <img
+                        src="spring-wall.png"
+                        alt="SPRING — Vape Shop в Барнауле"
+                        class="hero-image"
                     >
-                        Открыть Яндекс Карты
-                    </a>
+
+                    <div class="hero-card-info">
+
+                        <span class="status-dot"></span>
+
+                        <span>
+                            Информация о магазине
+                        </span>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
-
-</main>
+        </section>
 
 
-<footer class="footer">
+        <!-- ABOUT -->
+        <section class="section" id="about">
 
-    <div class="container footer-inner">
+            <div class="container">
 
-        <div>
-            <div class="footer-logo">
-                SPRING
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        SPRING
+                    </span>
+
+                    <h2>
+                        О магазине
+                    </h2>
+
+                </div>
+
+                <div class="about-grid">
+
+                    <div>
+                        <p>
+                            SPRING — магазин в Барнауле,
+                            посвящённый вейп-продукции,
+                            аксессуарам и сопутствующим товарам.
+                        </p>
+
+                        <p>
+                            На сайте можно получить информацию
+                            о магазине и узнать, как нас найти.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+
+                        <strong>
+                            Барнаул
+                        </strong>
+
+                        <span>
+                            Информация о магазине
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <p>
-                Вейп-шоп в Барнауле
-            </p>
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="section section-dark" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        SPRING
+                    </span>
+
+                    <h2>
+                        Информация
+                    </h2>
+
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Консультация
+                        </h3>
+
+                        <p>
+                            Информация о продукции
+                            и аксессуарах.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Ассортимент
+                        </h3>
+
+                        <p>
+                            Информация о товарах,
+                            представленных в магазине.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Как нас найти
+                        </h3>
+
+                        <p>
+                            Адрес и контактная информация
+                            магазина.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTS -->
+        <section class="section" id="contacts">
+
+            <div class="container contacts">
+
+                <div>
+
+                    <span class="section-label">
+                        БАРНАУЛ
+                    </span>
+
+                    <h2>
+                        Как нас найти
+                    </h2>
+
+                    <p>
+                        Здесь позже разместим точный адрес,
+                        телефон, режим работы и карту.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <div class="contact-row">
+
+                        <span>
+                            Магазин
+                        </span>
+
+                        <strong>
+                            SPRING
+                        </strong>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <span>
+                            Город
+                        </span>
+
+                        <strong>
+                            Барнаул
+                        </strong>
+
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <span>
+                            Статус
+                        </span>
+
+                        <strong class="online">
+                            ● Информация доступна
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-inner">
+
+            <div>
+                <strong>
+                    SPRING
+                </strong>
+
+                <span>
+                    Барнаул
+                </span>
+            </div>
+
+            <div>
+                © <span id="currentYear"></span> SPRING
+            </div>
+
         </div>
 
-        <div class="footer-right">
-            <p>
-                © <span id="year"></span> Spring
-            </p>
+    </footer>
 
-            <p class="footer-age">
+
+    <!-- 18+ -->
+    <div class="age-notice" id="ageNotice">
+
+        <div class="age-notice-content">
+
+            <strong>
                 18+
-            </p>
+            </strong>
+
+            <span>
+                Информация предназначена только
+                для совершеннолетних.
+            </span>
+
+            <button id="ageAccept">
+                Продолжить
+            </button>
+
         </div>
 
     </div>
 
-</footer>
 
-
-<div class="cookie" id="cookie">
-
-    <div>
-        <strong>18+</strong>
-        <p>
-            Сайт содержит информацию о продукции
-            с возрастными ограничениями.
-        </p>
-    </div>
-
-    <button id="cookieButton">
-        Понятно
-    </button>
-
-</div>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
